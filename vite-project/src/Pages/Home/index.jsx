@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbars from '../../Component/Navbar'
 import Hero from '../../Component/Hero'
+import WriteHeader from '../../Component/Header'
 
 function Home() {
 
@@ -8,6 +9,7 @@ function Home() {
     <>
       <Navbars />
       <Hero />
+      <WriteHeader />
     </>
   )
 }
